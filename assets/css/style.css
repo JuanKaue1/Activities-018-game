@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #292000;
+}
+
+ul {
+    list-style: none;
+}
+
+.aas {
+    background-color: #5bc6ffcf;
+}
+
+.asdd {
+    background-color: #fff;
+}
+
+body {
+    background-image: url('../img/bg.jpg');
+    background-size: 100%;
+}
+
+.logo {
+    max-width: 200px;
+    width: 100%;
+}
+
+header,
+footer {
+    background-color: #fff;
+
+}
+
+.hamburger ul li {
+    border-radius: 20rem;
+    width: 1.7rem;
+    height: .3rem;
+
+}
+
+.hamburger-body:hover {
+    background-color: #ffffff2f;
+
+}
+
+.hamburger-body {
+    cursor: pointer;
+    border-radius: 200px;
+    width: 60px;
+    height: 60px;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+li {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo-img {
+    max-width: 40px;
+    width: 100%;
+}
+
+.img-logo-img {
+    border-radius: 2000px;
+}
+
+.texto-color {
+    color: var(--black2)
+}
+
+.btn-body:active {
+    margin-top: 3rem;
+    height: 3.5rem;
+    border-radius: 100px / 3rem;
+    transition: .1s;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+}
+
+#btn-footer {
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--greenNblue2);
+    border: 0;
+    border-radius: 100px / 50px;
+    position: absolute;
+    z-index: -3;
+}
+
+.btn-footer {
+    width: 10rem;
+    height: 5rem;
+    background-color: var(--greenNblue1);
+    border: 0;
+    border-radius: 100px / 50px;
+    margin-top: 8rem;
+    position: absolute;
+    z-index: 0;
+}
+
+.button {
+    width: 6rem;
+    height: 4.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    border-radius: 100px / 50px;
+}
+
+.btn-body {
+    width: 6rem;
+    height: 4.5rem;
+    background-color: var(--beige1);
+    border-radius: 100px / 3rem;
+    z-index: 2;
+    position: absolute;
+    transition: .1s;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.fw-bold,
+.fs-3,
+.color-white {
+    color: #fff;
+}
